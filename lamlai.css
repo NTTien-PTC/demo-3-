@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#total { width:960px; height:1500px; margin:auto}
+#header { width:960px; height:96px; }
+#top { width:960px; height:30px; position:relative }
+#top table { width:960px; height:30px; background-color:#09F; border-color:#FFF;
+color:#FFF; text-align:center}
+#top td { width:188px; }
+#top td:hover { color:#0F6; background-color:#03F}
+#center { width:960px; height:1300px; }
+#center-t { width:930px; height:300px; margin:auto}
+#center-l { width:200px; height:1000px; float:left; position:relative; padding-left:15px;}
+#center-l table { width:200px; height:1000px; background:#09F; border-color:#FFF; font-size:24px; color:#FFF}
+#center-l td { width:128px; }
+.td:hover{ color:#0F6; background-color:#03F}
+#center-r { width:730px; height:300px; float:left}
+#center-r-t { width:730px; height:30px; background-color:#09F; color:#FFF; font-size:24px; float:left; text-align:center}
+#center-b { width: 730px;
+	height: 608px; position: relative; float:left
+}
+#center-b table{ width:500px; position:absolute; padding-left:15px; padding-top:15px;}
+#banner { width:200px; height:589; position:absolute; padding-left:740px; padding-top:400px;} 
+#bottom { width:960px; height:116px }
+#clr { clear:both }
+#demo {with:900px; height:201px; background:none}
