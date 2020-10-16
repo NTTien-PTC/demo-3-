@@ -26,6 +26,7 @@
         <h1>Hello Tien_dubai</h1>
         <form id="uploadForm" enctype="multipart/form-data" action="/upload" method="POST">
             <input type="file" name="myfile" />
+            <input type="demo" name = "min"/>
             <br/>
             <br/>
             <br/>
@@ -33,6 +34,12 @@
             <br/>
             <br/>
             <span id="status"></span>
+            <form action="http://localhost:8000/get" method="GET">
+                first Name: <input type="text" name="firstname"/> <br>
+                Last Name: <input type="text" name="lastname"/>
+    
+                <input type="submit" value="Submit"/>
+            </form>
         </form>
     </body>
 </html> 
