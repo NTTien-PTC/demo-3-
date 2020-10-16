@@ -1,0 +1,21 @@
+@charset "utf-8";
+px/* CSS Document */
+/* Index */
+.clr{clear:both}
+.boss{width:780px; height:1000px; margin:auto}
+.top{width:780px; height:125px; float:left}
+.footer{width:780px; height:30px; background-color:#0033fe
+; float:left; position:relative}
+.left{width:140px; height:815px; float:left; font-size:0px; position:relative;background-image:url(Images/nen_trai.gif)}
+.center{width:500px; height:815px; float:left}
+.right{width:140px; height:815px; float:left; font-size:0px; position:relative; background-image:url(Images/nen_phai.gif)}
+.footer b{ line-height:30px}
+a{color:#FFF}
+.trong{position:absolute; left:5px; top:25px}
+.footer a:hover {color:#F00}
+/* Over */
+
+
+/* register */
+
+
