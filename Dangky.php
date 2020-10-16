@@ -86,6 +86,12 @@ session_start();
 				$gender="Nu";
 			}
 
+			if($gender=="Nam"){
+				$gender="Nam";
+			}else{
+				$gender="Nu";
+			}
+
 			if ($user==null || $pasword==null) {
 				echo "<script> alert('Chưa nhập ID hoặc Password kìaaaa')</script>";
 			}elseif ($pasword!=$pasword2) {
