@@ -86,7 +86,6 @@ session_start();
 			$gender=$_POST['gioitinh'];
 			$dob=$_POST['ngaysinh'];
 			$address=$_POST['addr'];
-			//$checkid="select * from reg where ID='$user'";
 			//$query_checkid=mysqli_query($conn,$checkid);
 
 			if($gender=="Nam"){
